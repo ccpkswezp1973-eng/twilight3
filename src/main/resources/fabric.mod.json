@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "swordswing",
+  "version": "${version}",
+  "name": "Sword Swing Motion",
+  "description": "검을 들고 공격할 때 1인칭 휘두르기 모션을 대각선 베기로 바꿉니다.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    { "config": "swordswing.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.1",
+    "java": ">=25"
+  }
+}
